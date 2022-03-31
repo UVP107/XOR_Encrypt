@@ -5,7 +5,7 @@ def binary(num, length=8):
   return bin
 def hexadecimal(num, length=2):
   hexa = hex(num).lstrip("0x").upper()
-  hexa = "0" *length-len(hexa)) + hexa
+  hexa = "0" *(length-len(hexa)) + hexa
   return hexa
   
 # Text and Key
