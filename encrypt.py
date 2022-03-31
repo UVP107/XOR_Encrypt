@@ -27,7 +27,7 @@ for i in range (0, len(text)):
     cipherAscii = cipherAscii + chr(xor)
     cipherBin = cipherBin + binary(xor) + " "
     cipherDen = cipherDen + str(xor) + " "
-    cipherHex = cipherHex + hexa(xor) + " "
+    cipherHex = cipherHex + hexadecimal(xor) + " "
      
 # Output
 print ("\n Cipher Ascii : \n" + cipherAscii)
