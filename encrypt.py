@@ -1,8 +1,8 @@
 # Binary and Hexadecimal
 def binary(num, length=8):
-  bin = bin(num).lstrip("0b")
-  bin = "0" *(length-len(bin)) + bin
-  return bin
+  bina = bin(num).lstrip("0b")
+  bina = "0" *(length-len(bina)) + bina
+  return bina
 def hexadecimal(num, length=2):
   hexa = hex(num).lstrip("0x").upper()
   hexa = "0" *(length-len(hexa)) + hexa
@@ -21,7 +21,7 @@ cipherHex = ""
   
 # Calculation
 for i in range (0, len(text)):
-    j in i % keylength
+    j = i % keylength
       
     xor = ord(text[i]) ^ ord(key[j])
     cipherAscii = cipherAscii + chr(xor)
