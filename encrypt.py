@@ -9,8 +9,8 @@ def hexadecimal(num, length=2):
   return hexa
   
 # Text and Key
-text = input("Enter the text that you want to decrypt")
-key = input("Enter your key for text")
+text = input("Enter the text that you want to decrypt : \n")
+key = input("Enter your key for text : \n")
 keylength = len(key)
   
 # Cipher List
