@@ -10,7 +10,7 @@ def hexadecimal(num, length=2):
   
 # Text and Key
 text = input("Enter the text that you want to decrypt : \n")
-key = input("Enter your key for text : \n")
+key = "QAZ1308"
 keylength = len(key)
   
 # Cipher List
@@ -23,7 +23,7 @@ cipherHex = ""
 for i in range (0, len(text)):
     j = i % keylength
       
-    xor = ord(text[i]) ^ ord(key[j])
+    xor = ord(text[i]) ^ ord(keyopen[j])
     cipherAscii = cipherAscii + chr(xor)
     cipherBin = cipherBin + binary(xor) + " "
     cipherDen = cipherDen + str(xor) + " "
